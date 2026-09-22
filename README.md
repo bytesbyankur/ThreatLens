@@ -45,7 +45,7 @@ Open your terminal (Bash, PowerShell, or Command Prompt) and run the following c
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/bytesbyankur/ThreatLens.git](https://github.com/bytesbyankur/ThreatLens.git)
+git clone https://github.com/bytesbyankur/ThreatLens.git
 ```
 **2. Navigate into the directory:**
 
