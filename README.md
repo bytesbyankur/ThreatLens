@@ -38,14 +38,26 @@ To ensure cross-platform compatibility and preserve the live CLI demonstration U
 ### Prerequisites
 * [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running.
 
-### ⚡ One-Click Installation & Launch
 
-Open your terminal (Bash, PowerShell, or Command Prompt) in the root project directory and execute this single command to build the environment and tap into your host network for live packet sniffing:
+### ⚡ Installation & Launch
+
+Open your terminal (Bash, PowerShell, or Command Prompt) and run the following commands sequentially to download the repository, navigate into the project, and launch the live AI engine:
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/bytesbyankur/ThreatLens.git](https://github.com/bytesbyankur/ThreatLens.git)
+```
+**2. Navigate into the directory:**
+
+```bash
+cd ThreatLens
+```
+**3. Build and launch the container:**
+This command builds the isolated environment and taps into your host network for live packet sniffing.
 
 ```bash
 docker build -t threat-engine . && docker run -it --network host --cap-add=NET_ADMIN --cap-add=NET_RAW threat-engine
 ```
-
 ### 🎮 Interactive CLI Menu
 
 Upon launching the container, you will be greeted by the `menu.py` CLI launcher. Select one of the following execution modes:
