@@ -1,0 +1,16 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*~
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDEs and local configurations
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
